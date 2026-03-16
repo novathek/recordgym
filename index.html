@@ -5,7 +5,7 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Record Gym - Entrená como un Campeón</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Barlow+Condensed:ital,wght@1,800;1,900&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Barlow+Condensed:ital,wght@1,800;1,900&family=Public+Sans:ital,wght@1,300;1,500;1,700&display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
   tailwind.config = {
     darkMode: "class",
@@ -358,12 +358,8 @@
 <header class="fixed top-0 z-50 w-full border-b border-white/5 bg-background-dark/80 backdrop-blur-lg">
   <div class="container mx-auto px-4 lg:px-10 flex h-20 items-center justify-between gap-4">
     <div class="flex items-center gap-2 group cursor-pointer">
-      <div class="text-primary size-9 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
-        <svg fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-          <path d="M8.57829 8.57829C5.52816 11.6284 3.451 15.5145 2.60947 19.7452C1.76794 23.9758 2.19984 28.361 3.85056 32.3462C5.50128 36.3314 8.29667 39.7376 11.8832 42.134C15.4698 44.5305 19.6865 45.8096 24 45.8096C28.3135 45.8096 32.5302 44.5305 36.1168 42.134C39.7033 39.7375 42.4987 36.3314 44.1494 32.3462C45.8002 28.361 46.2321 23.9758 45.3905 19.7452C44.549 15.5145 42.4718 11.6284 39.4217 8.57829L24 24L8.57829 8.57829Z"/>
-        </svg>
-      </div>
-      <h1 class="text-xl font-black tracking-tight uppercase">Record <span class="text-primary">Gym</span></h1>
+      <img src="recordgym.svg" alt="Record Gym" class="h-9 w-auto transition-transform duration-300 group-hover:scale-110"/>
+      <h1 style="font-family:'Public Sans',sans-serif; font-style:italic; font-size:1.25rem; letter-spacing:-0.01em; line-height:1;" class="uppercase"><span style="font-weight:500;" class="text-white">RECORD</span><span style="font-weight:300;" class="text-white">GYM</span></h1>
     </div>
     <nav class="hidden md:flex items-center gap-10">
       <a class="text-sm font-semibold hover:text-primary transition-colors uppercase tracking-wider relative group" href="#inicio">
@@ -406,7 +402,7 @@
     <!-- Background -->
     <div class="absolute inset-0 z-0">
       <div class="absolute inset-0 hero-gradient z-10"></div>
-      <img alt="Fuerza y potencia" class="w-full h-full object-cover scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAB-GkCDUqEO6MYwywdTBZq4kPXPou92VfiGXWAYzARcFAG5IKp12gETkR7EnFICUrfKcztQuTov22BsrZJMGd-pBArOQa63AOJKRCljkvTV6uZKFn7lVz_Im9E6cA_p-7ElR7d0FAQkrWDhSHgXIqRgoOuc2wqHrcOochRi6DmYwyB-ijrFH2E76P_Ahm7iUyXKfLM7MJTClMnlncHJu1WSL-wde_NH8QDq4P8AgFTKX4e_vPwPV2cbJL6uj4qN-0osc4iwDLIEYs"/>
+      <img alt="Fuerza y potencia" class="w-full h-full object-cover scale-105" src="hero.webp"/>
     </div>
 
     <!-- Morphing blob -->
@@ -563,14 +559,14 @@
           </div>
 
           <div class="flex flex-wrap gap-4 pt-6">
-            <a class="shimmer-btn bg-white text-black flex items-center gap-3 px-8 py-4 rounded-2xl hover:bg-primary hover:text-white transition-all transform hover:-translate-y-1 shadow-xl" href="#">
+            <a class="shimmer-btn bg-white text-black flex items-center gap-3 px-8 py-4 rounded-2xl hover:bg-primary hover:text-white transition-all transform hover:-translate-y-1 shadow-xl" href="https://apps.apple.com/ar/app/socioplus-ux/id1621587015" target="_blank" rel="noopener">
               <svg class="size-7" fill="currentColor" viewBox="0 0 814 1000"><path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-57.8-155.5-127.4C46 790.7 0 663 0 541.8c0-207.1 134.8-316.5 266.1-316.5 77.4 0 142 50.9 190.4 50.9 46.5 0 120.5-54.3 205.3-54.3zM569.8 55.3c-39.9 50.9-72.6 121.3-72.6 191.9 0 8.7.6 17.4 1.9 25.4 5.8.6 11.6.6 17.4.6 70.7 0 146.4-47.4 186.3-107.1 35.8-53.3 67.5-127.4 67.5-199.3 0-9.3-.6-18.7-1.9-25.4-130.3 10.3-225.2 88.6-198.6 113.9z"/></svg>
               <div class="text-left">
                 <p class="text-[10px] uppercase font-black opacity-60 leading-none">Descargá en</p>
                 <p class="text-lg font-black leading-none">App Store</p>
               </div>
             </a>
-            <a class="shimmer-btn bg-surface-dark border border-white/10 text-white flex items-center gap-3 px-8 py-4 rounded-2xl hover:border-primary transition-all transform hover:-translate-y-1 shadow-xl" href="#">
+            <a class="shimmer-btn bg-surface-dark border border-white/10 text-white flex items-center gap-3 px-8 py-4 rounded-2xl hover:border-primary transition-all transform hover:-translate-y-1 shadow-xl" href="https://play.google.com/store/apps/details?id=com.socioplus" target="_blank" rel="noopener">
               <svg class="size-7 text-primary" fill="currentColor" viewBox="0 0 24 24"><path d="M3.18 23.76c.2.12.44.19.71.19.36 0 .76-.12 1.17-.36l12.45-7.13-2.74-2.76-11.59 9.86v.2zM.55 1.27C.21 1.6 0 2.12 0 2.82v18.36c0 .7.21 1.22.55 1.55l.08.08 10.27-10.27v-.24L.63 1.19l-.08.08zM20.55 9.12l-2.74-1.57-3.07 3.07 3.07 3.07 2.76-1.58c.79-.45.79-1.18 0-1.62l-.02-.37zM3.18.24L15.63 7.37l-2.74 2.76L1.3.27 3.18.24z"/></svg>
               <div class="text-left">
                 <p class="text-[10px] uppercase font-black opacity-60 leading-none">Conseguilo en</p>
@@ -606,7 +602,7 @@
 
         <!-- AC Feature -->
         <div class="tilt-card lg:col-span-2 group relative overflow-hidden rounded-3xl bg-surface-dark border border-white/5 h-[400px] reveal-left">
-          <img alt="Climatización" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVXNM4eyDyJdojrAuZFC9c6EZX35kV-x1ceXrarqR3510hNrpSzQ2C3Rn4NNQActJEEdnyf5W1HItZcW3WwFOuM5hMWc-U9b42K_7vrl9FPYsR-sBG7JKUe1TXz5uD0WXbuHnjKbYAG8i9LyZucKbYuxWCi6MVfAIMCwMaFElNwg6aNo5zVxe07t53p24sV_Xe1q8SZioKwfTKquxhJPJFrTazqm11IgxsKMNjh6gJwx_ufQXS4zzHPf6SkU45l_CMmDbGrte4Zpc"/>
+          <img alt="Climatización" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60" src="info.webp"/>
           <div class="absolute inset-0 bg-gradient-to-t from-background-dark via-background-dark/20 to-transparent p-10 flex flex-col justify-end">
             <h3 class="text-3xl font-black text-white mb-2 uppercase italic group-hover:text-primary transition-colors">4 AIRES ACONDICIONADOS</h3>
             <p class="text-slate-300 font-medium">Climatización total para que el calor no sea una excusa en pleno verano argentino.</p>
@@ -772,12 +768,8 @@
       <!-- Brand -->
       <div class="md:col-span-2 space-y-8 reveal">
         <div class="flex items-center gap-3">
-          <div class="text-primary size-12 hover:rotate-180 transition-transform duration-700 cursor-pointer">
-            <svg fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-              <path d="M8.57829 8.57829C5.52816 11.6284 3.451 15.5145 2.60947 19.7452C1.76794 23.9758 2.19984 28.361 3.85056 32.3462C5.50128 36.3314 8.29667 39.7376 11.8832 42.134C15.4698 44.5305 19.6865 45.8096 24 45.8096C28.3135 45.8096 32.5302 44.5305 36.1168 42.134C39.7033 39.7375 42.4987 36.3314 44.1494 32.3462C45.8002 28.361 46.2321 23.9758 45.3905 19.7452C44.549 15.5145 42.4718 11.6284 39.4217 8.57829L24 24L8.57829 8.57829Z"/>
-            </svg>
-          </div>
-          <span class="text-3xl font-black uppercase tracking-tighter">Record Gym</span>
+          <img src="recordgym.svg" alt="Record Gym" class="h-9 w-auto hover:rotate-180 transition-transform duration-700 cursor-pointer"/>
+          <h2 style="font-family:'Public Sans',sans-serif; font-style:italic; font-size:1.25rem; letter-spacing:-0.01em; line-height:1;" class="uppercase"><span style="font-weight:500;" class="text-white">RECORD</span><span style="font-weight:300;" class="text-white">GYM</span></h2>
         </div>
         <p class="text-slate-400 text-lg max-w-sm leading-relaxed font-light">
           Cambiamos tu forma de entrenar. La mejor tecnología, el mejor ambiente y vos, dándolo todo cada día.
